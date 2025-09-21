@@ -1,0 +1,33 @@
+=== متغيرات البيئة للنشر ===
+
+انسخ هذه المتغيرات وأضفها في منصة النشر:
+
+MONGODB_URI=mongodb+srv://ahtimam:youssef6362598@cluster0.bsdluw5.mongodb.net/ahtimam?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=commercial_platform_secret_2024_production
+JWT_REFRESH_SECRET=commercial_platform_refresh_secret_2024_production
+NODE_ENV=production
+ADMIN_EMAIL=admin@platform.com
+ADMIN_PASSWORD=Admin123!@#
+PORT=5000
+
+=== ملاحظات مهمة ===
+
+1. غير "xxxxx" في MONGODB_URI برقم الـ cluster الخاص بك من MongoDB Atlas
+2. غير JWT_SECRET إلى كلمة مرور قوية خاصة بك
+3. غير ADMIN_EMAIL و ADMIN_PASSWORD حسب رغبتك
+4. احتفظ بهذه المعلومات في مكان آمن
+
+=== منصات النشر المقترحة ===
+
+🥇 الأفضل: Vercel (https://vercel.com)
+   - مجاني
+   - سريع
+   - سهل الاستخدام
+
+🥈 البديل: Heroku (https://heroku.com)  
+   - مجاني مع قيود
+   - قاعدة بيانات مدمجة
+
+🥉 المتقدم: Railway (https://railway.app)
+   - أداء عالي
+   - مرن
